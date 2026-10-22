@@ -32,7 +32,7 @@ def quick_select(
         high: int | None = None) -> int:
     """
     Quick select find the value of a particular index.
-    Leveraging the fact that after parition pivot is at its correct spot,
+    Leveraging the fact that after parition pivot is at its correct spot.
     """
     if high is None:
         high = len(arr) - 1
