@@ -1,6 +1,6 @@
 """
 Quick Sort (Randomized Pivot)
-==========
+=============================
 Recurrence: T(n) = 2T(n/2) + Theta(n) expected | T(n - 1) + Theta(n) worst-case
 Time Complexity: O(n log n) average, O(n^2) worst-case
 Space Complexity: O(log n) recursion stack
