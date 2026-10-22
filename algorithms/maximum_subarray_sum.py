@@ -31,7 +31,7 @@ def max_subarray_sum(arr: list[int], low: int = 0, high: int | None = None) -> i
     if low == high:
         return arr[low]
 
-    #Divide
+    # Divide
     mid = (low + high) // 2
 
     # Conquer & Combine
