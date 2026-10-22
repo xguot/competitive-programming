@@ -4,6 +4,8 @@ Merge Sort
 Recurrence: T(n) = 2T(n/2) + Theta(n)
 Time Complexity: O(n log n) worst, average, and best case
 Space Complexity: O(n)
+Stability: Stable
+In-Place: No
 """
 
 def merge(left: list[int], right: list[int]) -> list[int]:
